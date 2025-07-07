@@ -67,3 +67,29 @@ Reference Data Types/Non-Primitive Data Types:
 16. JSON: A format for structuring data, often used for data interchange.
     Example: JSON.stringify({ name: "Alice" }) // converts object to JSON string
 */
+
+
+/* ++++++++++++++++++++++++++++++++++++
+Memory in JavaScript:
+1. Stack Memory(Primitive):
+   - Used for static memory allocation.
+   - Stores primitive data types (Number, String, Boolean, etc.) and references to objects.
+   - Follows Last In First Out (LIFO) order.
+   - Faster access time.
+
+   Example:
+   let a = 10; // stored in stack memory
+    let b = a; // b is a copy of a, stored in stack memory
+    a = 20; // changes a, but b remains 10
+    console.log(a, b); // Output: 20 10
+
+2. Heap Memory(Reference):
+   - Used for dynamic memory allocation.
+    - Stores objects, arrays, and functions.
+    - Memory is allocated and deallocated dynamically.
+    - Slower access time compared to stack memory.
+    -change to reference memory i.e heap memory also changes the original object.
+    - Objects are stored in heap memory, and stack memory holds references to these objects.
+    Example:
+    let obj1 = { name: "Alice" }; // obj1 is a reference to an object in heap memory
+    let obj2 = obj1; // obj2 references the same object as obj1
