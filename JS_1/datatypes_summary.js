@@ -92,4 +92,4 @@ Memory in JavaScript:
     - Objects are stored in heap memory, and stack memory holds references to these objects.
     Example:
     let obj1 = { name: "Alice" }; // obj1 is a reference to an object in heap memory
-    let obj2 = obj1; // obj2 references the same object as obj1
+    let obj2 = obj1; // obj2 references the same object as obj1*/
