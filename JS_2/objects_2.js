@@ -32,9 +32,30 @@ const users=[// Array of user objects
 ]
 users[0].name="Uday Kant";
 
-console.log(Objects.keys(tinderuser)); // ['id', 'name', 'isLoggedIn']
+console.log(Object.keys(tinderuser)); // ['id', 'name', 'isLoggedIn']
 console.log(Object.values(tinderuser)); // ['123abc', 'Uday Kant', false]
 console.log(Object.entries(tinderuser)); // [['id', '123abc'], ['name',
 
 console.log(tinderuser.hasOwnProperty("id")); // true
 console.log(tinderuser.hasOwnProperty("email")); // false
+
+//Destructuring objects
+const course={
+    courseName: "JavaScript",
+    price: 199,
+    courseinstructor: "Uday Kant",
+}
+// course.courseinstructor
+const {courseinstructor:instructor}=course
+console.log(courseinstructor); // Uday Kant
+console.log(instructor); // Uday Kant
+
+
+//api in json format
+// {
+//     name: "Uday Kant";
+//     coursename :"JavaScript",
+
+// } 
+
+
