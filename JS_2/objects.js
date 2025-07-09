@@ -1,5 +1,4 @@
-//singleton pattern means that only one instance of a class can exist
-// and it provides a global point of access to that instance
+
 
 //object literal notation
 const mysym=Symbol("my symbol"); //creating a symbol
