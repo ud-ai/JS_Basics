@@ -47,4 +47,4 @@ function addone(num){
 const addtwo = function(num){//expression
     return num+2
 }
-addtwo(5)// 7
+addtwo(5)// 7(this will not throw an error because we are calling the function after it is defined)
