@@ -19,4 +19,6 @@ STEPS:
                     whenever a Function is called then a new variable environment and execution thread is made (both memory and execution phase is done again)
                     when "return" is used it returns the value to the global execution
 
+4.
+
 
