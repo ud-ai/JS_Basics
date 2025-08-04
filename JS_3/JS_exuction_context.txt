@@ -25,3 +25,4 @@ STEPS:
 CALL STACK:
 
 --> It uses LIFO
+
