@@ -20,4 +20,7 @@ STEPS:
                     when "return" is used it returns the value to the global execution
 
 
-4. 
+4. After the usage the new variable and execution thread is deleted 
+
+CALL STACK:
+
